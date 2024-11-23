@@ -4,9 +4,21 @@ Este proyecto se centra en el análisis de datos de rendimiento atlético, utili
 Pregunta de investigación: ¿Es posible obtener un clasificador capaz de predecir el tipo de beneficio físico percibido por un individuo tras la práctica de una actividad de atletismo con una precisión del 80% desde los datos de un reloj inteligente con GPS integrado?
 
 ## Tabla de Contenidos
+* Tecnologías Utilizadas
 * Pasos Principales
 * Arquitectura
-* Tecnologías Utilizadas
+* Resultados
+
+## Tecnologías Utilizadas:
+  ### Librerías y versiones 
+  * Python 3.11.2
+  * NumPy v1.26.4
+  * Pandas v2.2.3
+  * Seaborn v0.12.2
+  * Datetime v3.11.2 
+  * Scikit-learn v1.4.2
+  * XGBoost v2.0.1
+  * Matplotlib 3.7.2
 
 ## Pasos Principales
 Recolección de Datos: Se recopilaron datos de rendimiento atlético a través de dispositivos de seguimiento.
@@ -22,14 +34,7 @@ Recolección de Datos: Reloj inteligente con GPS integrado.
 Preprocesamiento: Limpieza, normalización y coficación de variables categóricas utilizando Pandas y sklearn.
 Modelos: SVM, Random Forest, XGBoost para clasificación.
 
-## Tecnologías Utilizadas:
-  ### Librerías y versiones 
-  * Python 3.11.2
-  * NumPy v1.26.4
-  * Pandas v2.2.3
-  * Seaborn v0.12.2
-  * Datetime v3.11.2 
-  * Scikit-learn v1.4.2
-  * XGBoost v2.0.1
-  * Matplotlib 3.7.2
+## Resultados
+FALTAN DEFINIRLOS
+
 
