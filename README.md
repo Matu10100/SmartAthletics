@@ -37,16 +37,14 @@ Modelos: LogisticRegression, SVM, KNN, Random Forest, XGBoost para clasificació
 
 ## Resultados
 ### Tabla de Parámetros XGBoost
-
-| Parámetro         | Valor |
-|--------------------|-------|
-| max_depth          | 3     |
-| n_estimators       | 50    |
-| learning_rate      | 0.1   |
-| colsample_bytree   | 0.5   |
-| reg_lambda         | 0     |
-| gamma              | 0.3   |
-
+| Parámetro         | Descripción                                                        | Valor | Impacto                                                                                   |
+|--------------------|--------------------------------------------------------------------|-------|-------------------------------------------------------------------------------------------|
+| max_depth          | Profundidad máxima de cada árbol.                                  | 3     | Previene el sobreajuste con valores bajos; permite patrones complejos con valores altos. |
+| n_estimators       | Número total de árboles en el modelo.                              | 50    | Mejora la precisión, pero aumenta el riesgo de sobreajuste y el tiempo de entrenamiento. |
+| learning_rate      | Tasa a la que se ajustan los pesos en cada iteración.             | 0.1   | Valores bajos hacen el modelo más robusto, aunque pueden requerir más estimadores.       |
+| colsample_bytree   | Proporción de columnas a muestrear para cada árbol.               | 0.5   | Reduce la correlación entre árboles y mejora la generalización del modelo.               |
+| reg_lambda         | Término de regularización L2 para prevenir el sobreajuste.        | 0     | Sin regularización L2 puede aumentar el riesgo de sobreajuste.                           |
+| gamma              | Reducción mínima en la pérdida necesaria para hacer una partición adicional. | 0.3   | Valores altos hacen al algoritmo más conservador al crear nuevos nodos, ayudando a evitar sobreajuste. |
 ### Tabla de Resultados de Modelos
 
 | Modelo                     | Precisión (Entrenamiento) | Precisión (Validación) |
