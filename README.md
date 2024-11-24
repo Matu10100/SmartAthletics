@@ -11,14 +11,14 @@ Pregunta de investigación: ¿Es posible obtener un clasificador capaz de predec
 
 ## Tecnologías Utilizadas:
   ### Librerías y versiones 
-  * Python 3.11.2
+  * Python v3.11.2
   * NumPy v1.26.4
   * Pandas v2.2.3
   * Seaborn v0.12.2
   * Datetime v3.11.2 
   * Scikit-learn v1.4.2
   * XGBoost v2.0.1
-  * Matplotlib 3.7.2
+  * Matplotlib v3.7.2
 
 ## Pasos Principales
 Recolección de Datos: Se recopilaron datos de rendimiento atlético a través de dispositivos de seguimiento.
