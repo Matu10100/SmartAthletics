@@ -55,8 +55,9 @@ Modelos: LogisticRegression, SVM, KNN, Random Forest, XGBoost para clasificació
 | SVC                        | 0.6638                    | 0.6897                  |
 | XGBoost                    | 0.9956                    | 0.7931                  |
 
-La precisión promedio de los modelos en LOOCV es de: 0.6933
-La precisión del modelo sobre datos de prueba es de: 0.9333
+La precisión promedio de XGBoost en LOOCV es de: 0.6933
+
+La precisión de XGBoost sobre datos de prueba es de: 0.9333
 
 Dada la limitada muestra de datos, tanto en cantidad como el hecho de pertenecer a un mismo individuo, las métricas alcanzadas en el modelo no fueron las esperadas ni fueron consistentes sobre los diferentes conjuntos de entrenamiento, validación y prueba. En los datos recopilados, existe un desbalance en las etiquetas de la variable objetivo, lo que hacía que las clases minoritarias tuvieran muy pocas observaciones en el conjunto de entrenamiento y por ende se obtiene una generalización limitada en estas clases.
  
