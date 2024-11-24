@@ -23,16 +23,17 @@ Pregunta de investigación: ¿Es posible obtener un clasificador capaz de predec
 ## Pasos Principales
 Recolección de Datos: Se recopilaron datos de rendimiento atlético a través de dispositivos de seguimiento.
 Preprocesamiento de Datos: Los datos fueron limpiados y normalizados para asegurar su calidad.
-Entrenamiento del Modelo: Se entrenaron varios modelos utilizando algoritmos como SVM, Random Forest y XGBoost.
+Entrenamiento del Modelo: Se entrenaron varios modelos utilizando algoritmos como Regresión Logística, SVM, KNN, Random Forest y XGBoost.
 Evaluación: Se evaluaron los modelos utilizando la métrica de precisión (Accuracy).
 
 ## Arquitectura
-La arquitectura del proyecto incluye los siguientes componentes:
-Flujo de Datos: Los datos fluyen desde la recolección hasta el preprocesamiento, seguido del entrenamiento del modelo y finalmente la evaluación.
+La arquitectura del proyecto incluye:
+Los datos fluyen desde la recolección hasta el preprocesamiento, seguido del entrenamiento del modelo y finalmente la evaluación.
+
 ### Componentes Clave:
 Recolección de Datos: Reloj inteligente con GPS integrado.
 Preprocesamiento: Limpieza, normalización y coficación de variables categóricas utilizando Pandas y sklearn.
-Modelos: SVM, Random Forest, XGBoost para clasificación.
+Modelos: LogisticRegression, SVM, KNN, Random Forest, XGBoost para clasificación.
 
 ## Resultados
 FALTAN DEFINIRLOS
